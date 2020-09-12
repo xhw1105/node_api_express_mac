@@ -1,0 +1,17 @@
+{
+  "name": "node_js_api_mac",
+  "version": "1.0.0",
+  "description": "Using NodeJS to build API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "author": "Sasha Wang",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
